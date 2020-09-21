@@ -1,0 +1,66 @@
+{
+  "exclude": [
+    "node_modules"
+  ],
+  "compileOnSave": true,
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "common-components/*": [
+        "./src/components/*"
+      ],
+      "services/*": [
+        "./src/services/*"
+      ],
+      "stores/*": [
+        "./src/stores/*"
+      ],
+      "global-styles/*": [
+        "./src/styles/*"
+      ],
+      "global-types/*": [
+        "./src/types/*"
+      ],
+      "main-scene/*": [
+        "./src/scenes/Main/*"
+      ],
+      "utils/*": [
+        "./src/utils/*"
+      ]
+    },
+    "target": "ESNext",
+    "module": "esnext",
+    "sourceMap": true,
+    "jsx": "preserve",
+    "removeComments": true,
+    "noEmit": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node"
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.svg",
+  ]
+}
